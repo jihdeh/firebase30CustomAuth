@@ -6,18 +6,22 @@
   <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
   <script src="https://use.fontawesome.com/046fdc42eb.js"></script>
+  <link rel="stylesheet" type="text/css" href="/views/style.css">
 </head>
 
 <body>
+<div class="navbar-fixed">
   <nav>
     <div class="nav-wrapper">
-      <a href="#" class="brand-logo">Logo</a>
+      <a href="#" class="brand-logo">Firebase Custom Authentication<small class="author">by Jihdeh</small></a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="https://github.com/jihdeh" target="_blank"><i class="fa fa-github fa-1x"></i> Star on Github</a></li>
-        <li><a href="https://twitter.com/slim_temple" target="_blank"><i class="fa fa-twitter fa-1x"></i></li>
+        <li><a href="https://github.com/jihdeh/firebase30CustomAuth" target="_blank"><i class="fa fa-github fa-1x"></i></a></li>
+        <li><a href="https://twitter.com/slim_temple" target="_blank"><i class="fa fa-twitter fa-1x"></i></a></li>
       </ul>
     </div>
   </nav>
+  </div>
+  <div class="divider-2"></div>
   <div class="row">
     <form class="col s12">
       <fieldset>
@@ -34,11 +38,11 @@
             <label for="password">Password</label>
           </div>
         </div>
-        <button class="btn waves-effect waves-light" type="submit" id="register">Register
+        <button class="btn waves-effect waves-light submit-btn" type="submit" id="register">Register
           <i class="material-icons right">send</i>
         </button>
       </fieldset>
-      <hr/>
+      <div class="divider"></div>
       <fieldset>
         <legend>LOGIN</legend>
         <div class="row">
@@ -53,7 +57,7 @@
             <label for="password">Password</label>
           </div>
         </div>
-        <button class="btn waves-effect waves-light" type="submit" id="login">Login
+        <button class="btn waves-effect waves-light submit-btn" type="submit" id="login">Login
           <i class="material-icons right">send</i>
         </button>
       </fieldset>
