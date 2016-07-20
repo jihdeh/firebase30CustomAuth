@@ -3,6 +3,7 @@ var createAccount = function(email, password) {
     // Handle Errors here.
     var errorCode = error.code;
     var errorMessage = error.message;
+    sweetAlert("Oops...", "ErrorCode: "+ errorCode + ",\n ErrorMessage: " + errorMessage + ", error");
     console.error({ ErrorCode: errorCode, ErrorMessage: errorMessage });
   });
 }
@@ -12,6 +13,7 @@ var login = function(email, password) {
     // Handle Errors here.
     var errorCode = error.code;
     var errorMessage = error.message;
+    sweetAlert("Oops...", "ErrorCode: " + errorCode + " , \ nErrorMessage: " + errorMessage + ", error");
     console.error({ ErrorCode: errorCode, ErrorMessage: errorMessage });
   });
 }
