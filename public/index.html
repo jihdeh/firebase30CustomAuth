@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Umbrella77 - Firebase 3.x Basic setup</title>
+  <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+  <script src="https://use.fontawesome.com/046fdc42eb.js"></script>
+</head>
+
+<body>
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo">Logo</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="https://github.com/jihdeh" target="_blank"><i class="fa fa-github fa-1x"></i> Star on Github</a></li>
+        <li><a href="https://twitter.com/slim_temple" target="_blank"><i class="fa fa-twitter fa-1x"></i></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="row">
+    <form class="col s12">
+      <fieldset>
+        <legend>REGISTER</legend>
+        <div class="row">
+          <div class="input-field col s12">
+            <input id="registerEmail" type="email" class="validate">
+            <label for="email">Email</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <input id="registerPassword" type="password" class="validate">
+            <label for="password">Password</label>
+          </div>
+        </div>
+        <button class="btn waves-effect waves-light" type="submit" id="register">Register
+          <i class="material-icons right">send</i>
+        </button>
+      </fieldset>
+      <hr/>
+      <fieldset>
+        <legend>LOGIN</legend>
+        <div class="row">
+          <div class="input-field col s12">
+            <input id="email" type="email" class="validate">
+            <label for="email">Email</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <input id="password" type="password" class="validate">
+            <label for="password">Password</label>
+          </div>
+        </div>
+        <button class="btn waves-effect waves-light" type="submit" id="login">Login
+          <i class="material-icons right">send</i>
+        </button>
+      </fieldset>
+    </form>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase.js"></script>
+  <script src="/js/firebase-config.js"></script>
+  <script src="/js/auth.js"></script>
+</body>
+
+</html>
